@@ -10,7 +10,8 @@ nav{display:none}
 .logo{padding-left:2%;padding-top:2%;width:35%;display:table-cell;box-sizing:border-box}
 .logo img{width:100%}
 nav{width:65%;display:table-cell}
-.head__menu{background:#fff}}
+.head__menu{background:#fff}
+.menu__item:hover{background:#ccc}}
 @media (min-width:960px){header{width:96%;margin:auto auto 15px;display:table;padding-bottom:10px;border-bottom:1px solid #000}
 .logo{padding-left:0;padding-top:2%;width:20%}
 .head__menu{padding-left:5%;text-align:left}

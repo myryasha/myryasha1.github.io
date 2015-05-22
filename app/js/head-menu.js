@@ -42,6 +42,7 @@ $(function (){
 		$('nav').on('touchstart', function(event){
 			swipeStart =  event.originalEvent.changedTouches[0].clientX; // получаем точку первого касания
 			start_t = Date.now();
+			 event.preventDefault();
 			
 			
 		});
@@ -53,7 +54,7 @@ $(function (){
 			// в этом диапазоне можно свайпать
 			if ((swipeMod < (leftStop + fin)) && (swipeMod > (rightStop - fin))) {
 			$('.menu__item').css({'left' : swipeMod});
-			
+			 event.preventDefault();
 			};
 			
 		});
