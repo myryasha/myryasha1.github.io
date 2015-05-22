@@ -19,7 +19,7 @@ $(function (){
 		var fin_t;
 		var disc_t;
 		var speed_s;
-		var mass = 500;
+		var mass = 200;
 		var imp_s;
 
 
