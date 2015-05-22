@@ -66,7 +66,16 @@ $(function (){
 			console.log(swipeEnd-swipeStart);
 			swipeMod += imp_s;
 			if ((swipeMod < leftStop) && (swipeMod > rightStop)){
-				$('.menu__item').animate({'left' : swipeMod}, 500);
+				$('.menu__item').animate({
+					'left' : swipeMod
+				},
+				{
+				    duration: 500, 
+				    specialEasing: {
+				     left : 'linear'
+					}
+				} 
+				);
 				swipeFin = swipeMod;
 			};
 
