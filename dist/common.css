@@ -6,7 +6,6 @@ nav{display:none}
 .head__menu{background:#eee;margin:0;padding-left:0;text-align:center;white-space:nowrap;box-sizing:border-box;font-size:0}
 .menu__item{display:inline-block;box-sizing:border-box;padding:10px;position:relative;left:0}
 .menu__item a{text-decoration:none;color:#000;font-weight:700;font-size:15px}
-.menu__item:hover{background:#ccc}
 @media (min-width:569px){header{width:96%;margin:auto auto 15px;display:table;padding-bottom:10px;border-bottom:1px solid #000}
 .logo{padding-left:2%;padding-top:2%;width:35%;display:table-cell;box-sizing:border-box}
 .logo img{width:100%}
